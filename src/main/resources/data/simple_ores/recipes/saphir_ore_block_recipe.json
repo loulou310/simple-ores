@@ -1,0 +1,42 @@
+{
+  "group": "simple_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "1": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "2": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "3": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "4": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "5": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "6": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "7": {
+      "item": "simple_ores:saphir_gem"
+    },
+    "8": {
+      "item": "simple_ores:saphir_gem"
+    }
+  },
+  "result": {
+    "item": "simple_ores:saphir_ore_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,914 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyOreBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block"
+    },
+    {
+      "name": "RubyGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_gem"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe_recipe"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe_recipe"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword_recipe"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel_recipe"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe_recipe"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_helmet_recipe"
+    },
+    {
+      "name": "RubyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_body_recipe"
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_leggings_recipe"
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_boots_recipe"
+    },
+    {
+      "name": "RubyArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaphirOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_ore"
+    },
+    {
+      "name": "SaphirOreBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_ore_block"
+    },
+    {
+      "name": "SaphirGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_gem"
+    },
+    {
+      "name": "SaphirOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_ore_block_recipe"
+    },
+    {
+      "name": "SaphirBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_block_ore_recipe"
+    },
+    {
+      "name": "SaphirOreSmelting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_ore_smelting"
+    },
+    {
+      "name": "SaphirPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_pickaxe"
+    },
+    {
+      "name": "SaphirAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_axe"
+    },
+    {
+      "name": "SaphirSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_sword"
+    },
+    {
+      "name": "SaphirShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_shovel"
+    },
+    {
+      "name": "SaphirHoe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_hoe"
+    },
+    {
+      "name": "SaphirPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_pickaxe_recipe"
+    },
+    {
+      "name": "SaphirAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_axe_recipe"
+    },
+    {
+      "name": "SaphirSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_sword_recipe"
+    },
+    {
+      "name": "SaphirShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_shovel_recipe"
+    },
+    {
+      "name": "SaphirHoeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_hoe_recipe"
+    },
+    {
+      "name": "SaphirArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SaphirArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor_helmet_recipe"
+    },
+    {
+      "name": "SaphirArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor_body_recipe"
+    },
+    {
+      "name": "SaphirArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor_leggings_recipe"
+    },
+    {
+      "name": "SaphirArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor_boots_recipe"
+    },
+    {
+      "name": "SaphirArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphir_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EmeraldArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_helmet_recipe"
+    },
+    {
+      "name": "EmeraldArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_body_recipe"
+    },
+    {
+      "name": "EmeraldArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_leggings_recipe"
+    },
+    {
+      "name": "EmeraldArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_boots_recipe"
+    },
+    {
+      "name": "EmeraldArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe"
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_axe"
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_sword"
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shovel"
+    },
+    {
+      "name": "EmeraldHoe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_hoe"
+    },
+    {
+      "name": "EmeraldPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe_recipe"
+    },
+    {
+      "name": "EmeraldAxeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_axe_recipe"
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_sword_recipe"
+    },
+    {
+      "name": "EmeraldShovelRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shovel_recipe"
+    },
+    {
+      "name": "EmeraldHoeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_hoe_recipe"
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore"
+    },
+    {
+      "name": "AmethystOreBlock",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore_block"
+    },
+    {
+      "name": "AmethystGem",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_gem"
+    },
+    {
+      "name": "AmethystOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore_block_recipe"
+    },
+    {
+      "name": "AmethystBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_block_ore_recipe"
+    },
+    {
+      "name": "AmethystOreSmelting",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore_smelting"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_sword"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe_recipe"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe_recipe"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_sword_recipe"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel_recipe"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe_recipe"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AmethystArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_helmet_recipe"
+    },
+    {
+      "name": "AmethystArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_body_recipe"
+    },
+    {
+      "name": "AmethystArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_leggings_recipe"
+    },
+    {
+      "name": "AmethystArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_boots_recipe"
+    },
+    {
+      "name": "AmethystArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.simple_ores.saphir_ore_block": "Block of Saphir",
+      "item.simple_ores.saphir_axe": "Saphir Axe",
+      "item.simple_ores.amethyst_armorhelmet": "Amethyst Helmet",
+      "item.simple_ores.saphir_gem": "Saphir",
+      "item.simple_ores.ruby_pickaxe": "Ruby Pickaxe",
+      "item.simple_ores.emerald_sword": "Emerald Sword",
+      "item.simple_ores.amethyst_axe": "Amethyst Axe",
+      "item.simple_ores.amethyst_shovel": "Amethyst Shovel",
+      "item.simple_ores.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.simple_ores.amethyst_armorboots": "Amethyst Boots",
+      "block.simple_ores.ruby_ore": "Ruby Ore",
+      "item.simple_ores.ruby_armorboots": "Ruby Boots",
+      "block.simple_ores.amethyst_ore": "Amethyst Ore",
+      "item.simple_ores.emerald_hoe": "Emerald Hoe",
+      "item.simple_ores.amethyst_armorbody": "Amethyst Chestplate",
+      "item.simple_ores.saphir_armorlegs": "Saphir Leggings",
+      "item.simple_ores.amethyst_armorlegs": "Amethyst Leggings",
+      "block.simple_ores.amethyst_ore_block": "Block of Amethyst",
+      "item.simple_ores.saphir_armorbody": "Saphir Chestplate",
+      "item.simple_ores.amethyst_gem": "Amethyst",
+      "item.simple_ores.saphir_armorhelmet": "Saphir Helmet",
+      "item.simple_ores.amethyst_hoe": "Amethyst Hoe",
+      "item.simple_ores.saphir_sword": "Saphir Sword",
+      "item.simple_ores.emerald_axe": "Emerald Axe",
+      "item.simple_ores.saphir_shovel": "Saphir Shovel",
+      "item.simple_ores.ruby_shovel": "Ruby Shovel",
+      "item.simple_ores.ruby_hoe": "Ruby Hoe",
+      "item.simple_ores.saphir_armorboots": "Saphir Boots",
+      "item.simple_ores.amethyst_sword": "Amethyst Sword",
+      "item.simple_ores.emerald_armorboots": "Emerald Boots",
+      "item.simple_ores.ruby_armorbody": "Ruby Chestplate",
+      "item.simple_ores.ruby_armorlegs": "Ruby Leggings",
+      "item.simple_ores.saphir_pickaxe": "Saphir Pickaxe",
+      "item.simple_ores.emerald_shovel": "Emerald Shovel",
+      "item.simple_ores.ruby_sword": "Ruby Sword",
+      "block.simple_ores.ruby_ore_block": "Block of Ruby",
+      "item.simple_ores.emerald_armorlegs": "Emerald Leggings",
+      "item.simple_ores.ruby_armorhelmet": "Ruby Helmet",
+      "item.simple_ores.emerald_armorhelmet": "Emerald Helmet",
+      "item.simple_ores.emerald_armorbody": "Emerald Chestplate",
+      "block.simple_ores.saphir_ore": "Saphir Ore",
+      "item.simple_ores.ruby_axe": "Ruby Axe",
+      "item.simple_ores.emerald_pickaxe": "Emerald Pickaxe",
+      "item.simple_ores.ruby_gem": "Ruby",
+      "item.simple_ores.saphir_hoe": "Saphir Hoe"
+    },
+    "fr_fr": {
+      "block.simple_ores.saphir_ore_block": "Block of Saphir",
+      "item.simple_ores.saphir_axe": "Saphir Axe",
+      "item.simple_ores.amethyst_armorhelmet": "Amethyst Helmet",
+      "item.simple_ores.saphir_gem": "Saphir",
+      "item.simple_ores.ruby_pickaxe": "Ruby Pickaxe",
+      "item.simple_ores.emerald_sword": "Emerald Sword",
+      "item.simple_ores.amethyst_axe": "Amethyst Axe",
+      "item.simple_ores.amethyst_shovel": "Amethyst Shovel",
+      "item.simple_ores.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.simple_ores.amethyst_armorboots": "Amethyst Boots",
+      "block.simple_ores.ruby_ore": "Ruby Ore",
+      "item.simple_ores.ruby_armorboots": "Ruby Boots",
+      "block.simple_ores.amethyst_ore": "Amethyst Ore",
+      "item.simple_ores.emerald_hoe": "Emerald Hoe",
+      "item.simple_ores.amethyst_armorbody": "Amethyst Chestplate",
+      "item.simple_ores.saphir_armorlegs": "Saphir Leggings",
+      "item.simple_ores.amethyst_armorlegs": "Amethyst Leggings",
+      "block.simple_ores.amethyst_ore_block": "Block of Amethyst",
+      "item.simple_ores.saphir_armorbody": "Saphir Chestplate",
+      "item.simple_ores.amethyst_gem": "Amethyst",
+      "item.simple_ores.saphir_armorhelmet": "Saphir Helmet",
+      "item.simple_ores.amethyst_hoe": "Amethyst Hoe",
+      "item.simple_ores.saphir_sword": "Saphir Sword",
+      "item.simple_ores.emerald_axe": "Emerald Axe",
+      "item.simple_ores.saphir_shovel": "Saphir Shovel",
+      "item.simple_ores.ruby_shovel": "Ruby Shovel",
+      "item.simple_ores.ruby_hoe": "Ruby Hoe",
+      "item.simple_ores.saphir_armorboots": "Saphir Boots",
+      "item.simple_ores.amethyst_sword": "Amethyst Sword",
+      "item.simple_ores.emerald_armorboots": "Emerald Boots",
+      "item.simple_ores.ruby_armorbody": "Ruby Chestplate",
+      "item.simple_ores.ruby_armorlegs": "Ruby Leggings",
+      "item.simple_ores.saphir_pickaxe": "Saphir Pickaxe",
+      "item.simple_ores.emerald_shovel": "Emerald Shovel",
+      "item.simple_ores.ruby_sword": "Ruby Sword",
+      "block.simple_ores.ruby_ore_block": "Block of Ruby",
+      "item.simple_ores.emerald_armorlegs": "Emerald Leggings",
+      "item.simple_ores.ruby_armorhelmet": "Ruby Helmet",
+      "item.simple_ores.emerald_armorhelmet": "Emerald Helmet",
+      "item.simple_ores.emerald_armorbody": "Emerald Chestplate",
+      "block.simple_ores.saphir_ore": "Saphir Ore",
+      "item.simple_ores.ruby_axe": "Ruby Axe",
+      "item.simple_ores.emerald_pickaxe": "Emerald Pickaxe",
+      "item.simple_ores.ruby_gem": "Ruby",
+      "item.simple_ores.saphir_hoe": "Saphir Hoe"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "simple_ores",
+    "modName": "Simple Ores",
+    "version": "1.0.0",
+    "author": "loulou310, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.simpleores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

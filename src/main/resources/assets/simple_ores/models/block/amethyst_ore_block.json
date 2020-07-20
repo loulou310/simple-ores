@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "simple_ores:blocks/amethyst_ore_block",
+    "particle": "simple_ores:blocks/amethyst_ore_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "simple_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "1": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "2": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "3": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "5": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "6": {
+      "item": "simple_ores:ruby_gem"
+    },
+    "8": {
+      "item": "simple_ores:ruby_gem"
+    }
+  },
+  "result": {
+    "item": "simple_ores:ruby_armorlegs",
+    "count": 1
+  }
+}

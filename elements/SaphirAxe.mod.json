@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "saphir_axe",
+    "customModelName": "Normal",
+    "name": "Saphir Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 10,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 70,
+    "damageVsEntity": 30.0,
+    "usageCount": 2380,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SaphirGem"
+      }
+    ]
+  }
+}

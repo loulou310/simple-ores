@@ -1,0 +1,12 @@
+{
+  "group": "simple_ores",
+  "type": "minecraft:smelting",
+  "experience": 4.8999999999999995,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "simple_ores:amethyst_ore"
+  },
+  "result": {
+    "item": "simple_ores:amethyst_gem"
+  }
+}

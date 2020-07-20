@@ -1,0 +1,13 @@
+{
+  "group": "simple_ores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simple_ores:ruby_ore_block"
+    }
+  ],
+  "result": {
+    "item": "simple_ores:ruby_gem",
+    "count": 9
+  }
+}

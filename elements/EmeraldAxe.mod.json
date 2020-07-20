@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "emerald_axe",
+    "customModelName": "Normal",
+    "name": "Emerald Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 12,
+    "efficiency": 18.0,
+    "attackSpeed": 1.0,
+    "enchantability": 84,
+    "damageVsEntity": 36.0,
+    "usageCount": 3072,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.EMERALD"
+      }
+    ]
+  }
+}
