@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "More Gems Items",
+    "icon": {
+      "value": "CUSTOM:RubyGem"
+    },
+    "showSearch": false
+  }
+}

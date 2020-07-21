@@ -14,7 +14,7 @@
       "name": "EmeraldArmorBootsTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreGemsToolsArmor"
     },
     "armorTextureFile": "emerald",
     "helmetName": "Emerald Helmet",

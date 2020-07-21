@@ -14,7 +14,7 @@
       "name": "SaphirArmorHelmetTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreGemsToolsArmor"
     },
     "armorTextureFile": "saphir",
     "helmetName": "Saphir Helmet",

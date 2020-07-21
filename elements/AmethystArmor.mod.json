@@ -14,7 +14,7 @@
       "name": "AmethystArmorLeggingsTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreGemsToolsArmor"
     },
     "armorTextureFile": "amethyst",
     "helmetName": "Amethyst Helmet",

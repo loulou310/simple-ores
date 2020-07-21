@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import net.mcreator.simpleores.itemgroup.MoreGemsToolsItemGroup;
 import net.mcreator.simpleores.SimpleOresModElements;
 
 @SimpleOresModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class SaphirHoeItem extends SimpleOresModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SaphirGemItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -3f, new Item.Properties().group(MoreGemsToolsItemGroup.tab)) {
 		}.setRegistryName("saphir_hoe"));
 	}
 }

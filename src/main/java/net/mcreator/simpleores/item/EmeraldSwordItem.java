@@ -7,10 +7,10 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.simpleores.itemgroup.MoreGemsToolsArmorItemGroup;
 import net.mcreator.simpleores.SimpleOresModElements;
 
 @SimpleOresModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class EmeraldSwordItem extends SimpleOresModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.EMERALD, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 		}.setRegistryName("emerald_sword"));
 	}
 }

@@ -8,7 +8,7 @@
     "name": "Saphir Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MoreGemsTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 10,

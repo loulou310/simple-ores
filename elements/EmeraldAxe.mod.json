@@ -8,7 +8,7 @@
     "name": "Emerald Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MoreGemsTools"
     },
     "toolType": "Axe",
     "harvestLevel": 12,

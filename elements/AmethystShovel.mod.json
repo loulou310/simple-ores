@@ -8,7 +8,7 @@
     "name": "Amethyst Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MoreGemsTools"
     },
     "toolType": "Spade",
     "harvestLevel": 14,

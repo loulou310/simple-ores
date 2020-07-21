@@ -14,7 +14,7 @@
       "name": "RubyArmorBodyTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreGemsToolsArmor"
     },
     "armorTextureFile": "ruby",
     "helmetName": "Ruby Helmet",

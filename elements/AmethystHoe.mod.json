@@ -8,7 +8,7 @@
     "name": "Amethyst Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MoreGemsTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 14,

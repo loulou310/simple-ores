@@ -8,7 +8,7 @@
     "name": "Amethyst Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreGemsToolsArmor"
     },
     "toolType": "Sword",
     "harvestLevel": 14,
