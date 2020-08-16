@@ -21,15 +21,18 @@ import net.mcreator.simpleores.procedures.SaphirArmorHelmetTickEventProcedure;
 import net.mcreator.simpleores.itemgroup.MoreGemsToolsArmorItemGroup;
 import net.mcreator.simpleores.SimpleOresModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SimpleOresModElements.ModElement.Tag
 public class SaphirArmorItem extends SimpleOresModElements.ModElement {
-	@ObjectHolder("simple_ores:saphir_armorhelmet")
+	@ObjectHolder("simple_ores:saphir_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("simple_ores:saphir_armorbody")
+	@ObjectHolder("simple_ores:saphir_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("simple_ores:saphir_armorlegs")
+	@ObjectHolder("simple_ores:saphir_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("simple_ores:saphir_armorboots")
+	@ObjectHolder("simple_ores:saphir_armor_boots")
 	public static final Item boots = null;
 	public SaphirArmorItem(SimpleOresModElements instance) {
 		super(instance, 39);
@@ -76,33 +79,33 @@ public class SaphirArmorItem extends SimpleOresModElements.ModElement {
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
 				super.onArmorTick(itemstack, world, entity);
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					SaphirArmorHelmetTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("saphir_armorhelmet"));
+		}.setRegistryName("saphir_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/saphir_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("saphir_armorbody"));
+		}.setRegistryName("saphir_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/saphir_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("saphir_armorlegs"));
+		}.setRegistryName("saphir_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/saphir_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("saphir_armorboots"));
+		}.setRegistryName("saphir_armor_boots"));
 	}
 }

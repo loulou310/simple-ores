@@ -21,15 +21,18 @@ import net.mcreator.simpleores.procedures.AmethystArmorLeggingsTickEventProcedur
 import net.mcreator.simpleores.itemgroup.MoreGemsToolsArmorItemGroup;
 import net.mcreator.simpleores.SimpleOresModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SimpleOresModElements.ModElement.Tag
 public class AmethystArmorItem extends SimpleOresModElements.ModElement {
-	@ObjectHolder("simple_ores:amethyst_armorhelmet")
+	@ObjectHolder("simple_ores:amethyst_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("simple_ores:amethyst_armorbody")
+	@ObjectHolder("simple_ores:amethyst_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("simple_ores:amethyst_armorlegs")
+	@ObjectHolder("simple_ores:amethyst_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("simple_ores:amethyst_armorboots")
+	@ObjectHolder("simple_ores:amethyst_armor_boots")
 	public static final Item boots = null;
 	public AmethystArmorItem(SimpleOresModElements instance) {
 		super(instance, 77);
@@ -72,13 +75,13 @@ public class AmethystArmorItem extends SimpleOresModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorhelmet"));
+		}.setRegistryName("amethyst_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorbody"));
+		}.setRegistryName("amethyst_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -87,21 +90,21 @@ public class AmethystArmorItem extends SimpleOresModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					AmethystArmorLeggingsTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("amethyst_armorlegs"));
+		}.setRegistryName("amethyst_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorboots"));
+		}.setRegistryName("amethyst_armor_boots"));
 	}
 }

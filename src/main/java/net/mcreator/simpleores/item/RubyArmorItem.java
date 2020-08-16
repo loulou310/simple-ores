@@ -21,15 +21,18 @@ import net.mcreator.simpleores.procedures.RubyArmorBodyTickEventProcedure;
 import net.mcreator.simpleores.itemgroup.MoreGemsToolsArmorItemGroup;
 import net.mcreator.simpleores.SimpleOresModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SimpleOresModElements.ModElement.Tag
 public class RubyArmorItem extends SimpleOresModElements.ModElement {
-	@ObjectHolder("simple_ores:ruby_armorhelmet")
+	@ObjectHolder("simple_ores:ruby_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("simple_ores:ruby_armorbody")
+	@ObjectHolder("simple_ores:ruby_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("simple_ores:ruby_armorlegs")
+	@ObjectHolder("simple_ores:ruby_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("simple_ores:ruby_armorboots")
+	@ObjectHolder("simple_ores:ruby_armor_boots")
 	public static final Item boots = null;
 	public RubyArmorItem(SimpleOresModElements instance) {
 		super(instance, 17);
@@ -72,7 +75,7 @@ public class RubyArmorItem extends SimpleOresModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorhelmet"));
+		}.setRegistryName("ruby_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -81,27 +84,27 @@ public class RubyArmorItem extends SimpleOresModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					RubyArmorBodyTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("ruby_armorbody"));
+		}.setRegistryName("ruby_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorlegs"));
+		}.setRegistryName("ruby_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(MoreGemsToolsArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "simple_ores:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorboots"));
+		}.setRegistryName("ruby_armor_boots"));
 	}
 }

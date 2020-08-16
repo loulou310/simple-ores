@@ -3,11 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="simple_ores"
-version="1.0.0"
+version="1.1.2"
 displayName="Simple Ores"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="loulou310, MCreator"
+authors="loulou310"
 
 [[dependencies.simple_ores]]
     modId="minecraft"
@@ -15,6 +15,7 @@ authors="loulou310, MCreator"
     versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
+
 
 
 
